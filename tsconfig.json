@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "rxjs-socket-service": [
+        "dist/rxjs-socket-service"
+      ],
+      "rxjs-socket-service/*": [
+        "dist/rxjs-socket-service/*"
+      ]
+    }
   }
 }
