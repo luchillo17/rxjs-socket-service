@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "server": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' gulp run-server"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {

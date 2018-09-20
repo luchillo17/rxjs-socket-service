@@ -2,9 +2,9 @@ import * as express from 'express';
 import { createServer } from 'http';
 import * as socketIO from 'socket.io';
 
-let app = express();
-let http = createServer(app);
-let io = socketIO(http);
+const app = express();
+const http = createServer(app);
+const io = socketIO(http);
 
 let todoList = [];
 
