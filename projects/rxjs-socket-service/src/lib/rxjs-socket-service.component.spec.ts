@@ -8,14 +8,13 @@ describe('RxjsSocketServiceComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RxjsSocketServiceComponent ]
-    })
-    .compileComponents();
+      declarations: [RxjsSocketServiceComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(RxjsSocketServiceComponent);
-    component = fixture.componentInstance;
+    component = fixture.debugElement.componentInstance;
     fixture.detectChanges();
   });
 
