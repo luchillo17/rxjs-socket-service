@@ -1,0 +1,3 @@
+Testing:
+  ☐ Add Jest as test manager for the class itself
+  ☐ Configure the angular testBed for importing in angular and ensuring it can be injected (secondary test for angular)
