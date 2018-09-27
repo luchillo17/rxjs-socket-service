@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
-import { RxjsSocketServiceComponent } from './rxjs-socket-service.component';
 
 @NgModule({
-  imports: [
-  ],
-  declarations: [RxjsSocketServiceComponent],
-  exports: [RxjsSocketServiceComponent]
+  imports: [],
+  declarations: [],
+  exports: [],
 })
-export class RxjsSocketServiceModule { }
+export class RxjsSocketServiceModule {}
